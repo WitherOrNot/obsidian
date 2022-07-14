@@ -17,14 +17,10 @@ namespace obsidian
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void launchButton_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
+            DownloadProgress dp = new DownloadProgress();
+            dp.ShowDialog();
         }
     }
 }
