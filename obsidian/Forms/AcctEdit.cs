@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace obsidian
 {
-    public partial class Form1 : Form
+    public partial class AcctEdit : Form
     {
-        public Form1()
+        public AcctEdit()
         {
             InitializeComponent();
         }
 
-        private void launchButton_Click(object sender, EventArgs e)
+        private void AcctEdit_Load(object sender, EventArgs e)
         {
-            DownloadProgress dp = new DownloadProgress();
-            dp.ShowDialog();
+
         }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace obsidian
 {
-    internal class DownloadInstance
+    public class MsAuth
     {
+
     }
 }
